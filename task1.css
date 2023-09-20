@@ -1,0 +1,55 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8c7323;
+}
+
+/* Header styling */
+header {
+    background-color: #a11515;
+    color: #7eb722;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #030f05;
+    font-weight: bold;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #126b2b;
+    color: #426f15;
+}
+
+/* Add more custom styles as needed */
